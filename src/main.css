@@ -13,3 +13,16 @@ img {
   margin: 20px 0;
   max-width: 200px;
 }
+
+.full {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centerize{
+  width: 400px;
+  height: 400px;
+}

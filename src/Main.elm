@@ -1,7 +1,7 @@
 module Main exposing (..)
 
 import Html exposing (Html, text, div, h1, img)
-import Html.Attributes exposing (src)
+import Html.Attributes exposing (src, class)
 import Svg exposing (svg, polygon, rect, g)
 import Svg.Attributes exposing (viewBox, height, fill, points, transform, width, x, y)
 
@@ -37,9 +37,10 @@ update msg model =
 
 view : Model -> Html Msg
 view model =
-    div []
-        [ h1 [] [ text "Your Elm App is working!" ]
-        , objects model
+    div [ class "full" ]
+        [ div [ class "centerize" ]
+            [ objects model
+            ]
         ]
 
 
