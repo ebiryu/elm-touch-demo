@@ -20,9 +20,11 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #e0e0e0;
 }
 
 .centerize{
-  width: 400px;
-  height: 400px;
+  width: 320px;
+  height: 320px;
+  background-color: #fff;
 }
