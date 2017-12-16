@@ -90,7 +90,7 @@ update msg model =
                     model.distance
 
                 eventPositions =
-                    Dict.values <| Touch.changedTouches event
+                    Dict.values <| Touch.touches event
 
                 newDistance =
                     case eventPositions of
